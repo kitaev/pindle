@@ -1,0 +1,7 @@
+{
+  "name": "Pindle",
+  "version": "0.0.0.1",
+  "description": "Pindle Plugin",
+
+  "plugins": [{"path": "nppindle.dll", "public": true}]
+}

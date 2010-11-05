@@ -1,0 +1,21 @@
+<html>
+	<head>
+	<title>Pindle Test</title>
+	</head>
+	<body>
+	<script type="text/javascript">
+		function foo() {
+			try {
+				alert(document.getElementById("pluginobj").foo());
+			}
+			catch(e) {
+				alert(e);
+			}
+		}
+	</script>
+	<p>
+		<button onclick='foo()'>Call foo()</button>
+		<object id="pluginobj" type="application/pindle">Plugin FAILED to load</object>
+	</p>
+	</body>
+</html>
